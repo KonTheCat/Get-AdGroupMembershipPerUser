@@ -9,4 +9,4 @@ Gets a report of users and their AD groups. Filterable by OU for both users and 
        
 .EXAMPLE
 
-Get-AdGroupMembershipPerUser -UserOU '<OU Distinguished Name>' -Group-OU '<OU Distinguished Name>' -ExcludeNoGroups 
+Get-AdGroupMembershipPerUser -UserOU 'OU Distinguished Name' -Group-OU 'OU Distinguished Name' -ExcludeNoGroups 
